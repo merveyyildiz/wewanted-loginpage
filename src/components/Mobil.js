@@ -6,7 +6,7 @@ export default function Mobil () {
   return(
     <div className="mobil">
  <Grid  columns={2}>
-      <Grid.Row centered style={{ marginTop: "6px",height:"90px"}}>
+      <Grid.Row  style={{ marginTop: "6px",height:"90px", marginLeft:"80px"}}>
         <Grid.Column >
          <Image src={logo1}  style={{ width:"220px",height:"60px"}}/>
         </Grid.Column>

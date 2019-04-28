@@ -6,7 +6,7 @@ export default function Mobil () {
   return(
     <div className="mobil">
  <Grid  columns={2}>
-      <Grid.Row  style={{ marginTop: "6px",height:"90px", marginLeft:"80px"}}>
+      <Grid.Row centered style={{ marginTop: "6px",height:"90px"}}>
         <Grid.Column >
          <Image src={logo1}  style={{ width:"220px",height:"60px"}}/>
         </Grid.Column>
@@ -21,7 +21,7 @@ export default function Mobil () {
          <div className="Lorem-Ipsum-has-been-mobil">Lorem Ipsum has been the industry’s standard dummy text ever since the 1500s, when an unknown printer took a galley of type it specimen book.  </div>
         </Grid.Column>  
         </Grid.Row>
-         <Grid.Row style={{paddingTop:"15px"}}>
+         <Grid.Row style={{paddingTop:"20px"}}>
         <Grid.Column>
            <Input icon='envelope' size='small' iconPosition='left'style={{width:"280px"}} placeholder='Mail giriniz..' />
         </Grid.Column>
@@ -32,7 +32,7 @@ export default function Mobil () {
         </Grid.Column>
         </Grid.Row>
         <Grid.Row style={{paddingTop:"10px"}} >
-        <Grid.Column style={{paddingTop:"0px", width:"280px"}}>
+        <Grid.Column style={{paddingTop:"0px", width:"300px"}}>
           <Checkbox label={<label style={{color:"white"}}>Beni Hatırla</label>} />
           <div style={{ float:"right",  color:"orange"}}>Şifremi Unuttum</div>
         </Grid.Column>

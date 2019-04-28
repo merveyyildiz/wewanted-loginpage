@@ -46,7 +46,7 @@ export default function Rectangle (){
          <span className="Ya-da-sosyal-medya-araclyla-ile">Ya da sosyal medya aracılığıyla ile</span>
         </Grid.Column>
         </Grid.Row>
-          <Grid.Row centered style={{color:"white",margin:"0px"}}>
+          <Grid.Row  style={{color:"white",margin:"0px",marginLeft:"160px"}}>
         <Grid.Column>
          <Icon name='google' size='large' />
          <Icon name='facebook f' size='large' />

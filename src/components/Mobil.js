@@ -3,19 +3,20 @@ import {
   Grid,
   Container,
   Image,
-  Input,
   Checkbox,
   Button,
   Icon,
   Form
 } from 'semantic-ui-react';
 import logo1 from '../Assets/LOGO1.png';
-
+import logo2 from '../Assets/LOGO1@2x.png';
 export default function Mobil() {
   return (
     <div className="mobil">
       <Container className="mobilbox" textAlign="center">
-        <Image src={logo1} centered />
+        <Image src={logo1} srcSet={logo2 }
+            alt="logo"
+            centered />
         <p className="Lorem-Ipsum-is-simply-dummy-text-of-the-printing-industry-mobil">
           Lorem Ipsum is simply dummy text of the printing industry.{' '}
         </p>

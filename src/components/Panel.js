@@ -6,7 +6,7 @@ import {  Responsive,Grid} from 'semantic-ui-react'
 export default function Panel () {
   return (
     <>
-    <Responsive  minWidth={992} >
+    <Responsive  minWidth={768.1} >
      <Grid columns={2}>
      
     <Grid.Row>
@@ -22,7 +22,7 @@ export default function Panel () {
     </Grid>
      </Responsive>
 
-     <Responsive  maxWidth={450}>
+     <Responsive  maxWidth={768}>
      
      <Mobil />
     </Responsive>

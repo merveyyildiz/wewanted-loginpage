@@ -15,6 +15,8 @@ export default class Goran extends Component {
               <div className="Lorem-ipsum">
                 Lorem ipsum Dolor Sit Amet, Lorem
               </div>
+
+              <div className="mainEllips"></div>
             </Grid.Column>
           </Grid.Row>
           <Grid.Row>
@@ -60,7 +62,6 @@ export default class Goran extends Component {
           </Grid.Row>
         </Grid>
 
-        <div className="Ellips"></div>
       </div>
     );
   }

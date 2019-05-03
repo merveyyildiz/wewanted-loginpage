@@ -59,6 +59,8 @@ export default class Goran extends Component {
             </Grid.Column>
           </Grid.Row>
         </Grid>
+
+        <div className="Ellips"></div>
       </div>
     );
   }

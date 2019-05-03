@@ -8,6 +8,10 @@ body {
 }
 
 .mobil{
+<<<<<<< HEAD
+=======
+  width:100%;
+>>>>>>> repo/master
   background-color: #1d1e22 ;
   width: 100%;
   height: 100vh;
@@ -161,6 +165,9 @@ width:100vh;
 .Kayt-Ol {
   color: #f18d03;
 }
+<<<<<<< HEAD
 a{
   color:#fdfef9;
 }
+=======
+>>>>>>> repo/master

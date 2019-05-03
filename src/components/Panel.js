@@ -2,7 +2,7 @@ import React from 'react';
 import Goran from './Goran.js';
 import Rectangle from './Rectangle.js';
 import Mobil from './Mobil';
-import { Responsive, Grid } from 'semantic-ui-react';
+import { Responsive} from 'semantic-ui-react';
 export default function Panel() {
   return (
     <>

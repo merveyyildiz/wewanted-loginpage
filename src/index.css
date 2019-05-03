@@ -6,7 +6,7 @@ body {
 .mobil {
   background-color: #1d1e22;
   width: 100%;
-  height: 100%;
+  height: 100% !important;
   position: absolute;
   top: 0px;
   margin: 0px;
@@ -44,9 +44,16 @@ body {
   margin: 0;
   z-index: 22;
   overflow: hidden;
+
+  flex-direction: column;
+ 
+}
+.goranbox{
+  width:70%;
+  margin:20% auto auto auto;
 }
 .Lorem-ipsum {
-  width: 603px;
+   width: 553px;
   height: 329px;
   font-family: Roboto;
   font-size: 90px;
@@ -57,7 +64,6 @@ body {
   letter-spacing: normal;
   text-align: left;
   color: #fdfef9;
-  margin-top: 150px;
 }
 .Lorem-Ipsum-is-simply-dummy-text-of-the-printing-industry {
   margin-top: 38px;

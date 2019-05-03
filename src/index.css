@@ -19,14 +19,14 @@ body {
 }
 .rectangle {
   position: absolute;
-  width: 40%;
+  width: 43%;
   background-color: #1d1e22;
   height: 100%;
   top: 0;
   margin: 0;
   float: right;
   z-index: 0;
-  left: 60%;
+  left: 57%;
   overflow: auto;
 }
 .rectanglebox {
@@ -34,14 +34,14 @@ body {
   padding-top: 25px;
 }
 .goran-back {
-  width: 60%;
+  width: 57%;
   height: 100% !important;
   background-color: #f18d03;
   background-image: url(./Assets/goran-ivos.png);
   position: absolute;
   top: 0;
   margin: 0;
-  z-index: 2;
+  z-index: 22;
   overflow: hidden;
 }
 .Lorem-ipsum {
@@ -190,8 +190,36 @@ input {
   height: 179px;
   opacity: 0.71;
   background-color:#f89f23;
-  margin-top:371px;
-  margin-left:38.1px;
-  z-index:1;
+  margin-top:301px;
+  margin-left:38.5px;
+  z-index:-5;
   position: absolute;
+}
+.mainEllips1{
+  margin-left:128.5px;
+  margin-top:388px;
+}
+.mainEllips2{
+  margin-left:587.7px;
+  margin-top:70px;
+}
+.mainEllips3{
+  margin-left:671.7px;
+  margin-top:156px;
+}
+.mainEllips4{
+  margin-left:599.7px;
+  margin-top:601px;
+}
+.mainEllips5{
+  margin-left:689.7px;
+  margin-top:670px;
+}
+.mainEllips6{
+  margin-top:700px;
+  margin-left:0;
+}
+.mainEllips7{
+  margin-top:-110px;
+  margin-left:0;
 }

@@ -1,8 +1,28 @@
+html,
+body {
+  height: 100%;
+}
+body {
+  margin: 0;
+  padding: 0;
+}
+
 .mobil{
-  width:60vh;
   background-color: #1d1e22 ;
-  padding:20px 15px 10px 35px;
-  margin:0px;
+  width: 100%;
+  height: 100vh;
+  position: absolute;
+  top: 0;
+  left: 0;
+  margin: 0;
+  padding: 0;
+}
+.mobilbox{
+    width: 70% !important;
+   margin-left: auto;
+  margin-right: auto;
+  margin-top: 15px;
+  margin-bottom: auto;
 }
 .rectangle-back{
 width:100vh;
@@ -44,7 +64,6 @@ width:100vh;
   color: #fdfef9;
 }
 .Lorem-Ipsum-is-simply-dummy-text-of-the-printing-industry-mobil {
-  width: 295px;
   font-family: Roboto;
   font-size: 30px;
   font-weight: 500;
@@ -54,6 +73,10 @@ width:100vh;
   letter-spacing: normal;
   text-align: left;
   color: #fdfef9;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 0px;
+  margin-top:10px;
 }
 .Lorem-Ipsum-has-been{
   width: 425px;
@@ -70,8 +93,7 @@ width:100vh;
   color: #fdfef9;
 }
 .Lorem-Ipsum-has-been-mobil{
-  width: 295px;
-  height: 86px;
+  margin-top: 10px;
   opacity: 0.5;
   font-family: Roboto;
   font-size: 18px;
@@ -97,7 +119,8 @@ width:100vh;
   margin-left:120px;
 }
 .Ya-da-sosyal-medya-araclyla-ile-mobil{
-  width:200px;
+  margin-top:10px;
+  margin-bottom: 10px;
   opacity: 0.5;
   font-family: Roboto;
   font-size: 14px;
@@ -107,7 +130,6 @@ width:100vh;
   letter-spacing: normal;
   text-align: center;
   color:#fdfef9;
-  margin-left:30px;
 }
 
 
@@ -125,19 +147,20 @@ width:100vh;
    margin-left:120px;
 }
 .Aramza-katlmak-ister-misin-Kayt-Ol-mobil {
-  height:40px;
-  width: 271px;
+  margin-top:15px;
   font-family: Roboto;
   font-size: 16px;
   font-weight: normal;
   font-style: normal;
   font-stretch: normal;
   letter-spacing: normal;
-  text-align: left;
   color: #fdfef9;
-   margin-left:30px;
+
 }
 
 .Kayt-Ol {
   color: #f18d03;
+}
+a{
+  color:#fdfef9;
 }

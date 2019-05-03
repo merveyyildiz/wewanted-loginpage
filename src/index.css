@@ -1,11 +1,10 @@
-
 body {
   margin: 0;
   padding: 0;
 }
 
-.mobil{
-  background-color: #1d1e22 ;
+.mobil {
+  background-color: #1d1e22;
   width: 100%;
   height: 100% !important;
   position: absolute;
@@ -13,38 +12,39 @@ body {
   margin: 0;
   padding: 0;
 }
-.mobilbox{
-    width: 70% !important;
-    margin:25px auto auto auto;
+.mobilbox {
+  width: 70% !important;
+  height: 100%;
+  margin: 25px auto auto auto;
 }
-.rectangle{
+.rectangle {
   position: absolute;
-width:40%;
-  background-color:#1d1e22 ;
-  height: 100% ;
-  top:0;
-  margin:0;
+  width: 40%;
+  background-color: #1d1e22;
+  height: 100%;
+  top: 0;
+  margin: 0;
   float: right;
   z-index: 0;
-  left:60%;
-  overflow:auto;
+  left: 60%;
+  overflow: auto;
 }
-.rectanglebox{
-  width:70% !important;
-  padding-top:25px;
+.rectanglebox {
+  width: 70% !important;
+  padding-top: 25px;
 }
-.goran-back{
-  width:60%;
+.goran-back {
+  width: 60%;
   height: 100% !important;
   background-color: #f18d03;
   background-image: url(./Assets/goran-ivos.png);
   position: absolute;
-  top:0;
-  margin:0;
+  top: 0;
+  margin: 0;
   z-index: 1;
-    overflow:hidden;
+  overflow: hidden;
 }
-.Lorem-ipsum{
+.Lorem-ipsum {
   width: 603px;
   height: 329px;
   font-family: Roboto;
@@ -59,8 +59,7 @@ width:40%;
   margin-top: 150px;
 }
 .Lorem-Ipsum-is-simply-dummy-text-of-the-printing-industry {
-  
-margin-top:38px;
+  margin-top: 38px;
   font-family: Roboto;
   font-size: 30px;
   font-weight: 500;
@@ -84,9 +83,9 @@ margin-top:38px;
   display: flex;
   justify-content: center;
   margin-bottom: 0px;
-  margin-top:10px;
+  margin-top: 10px;
 }
-.Lorem-Ipsum-has-been{
+.Lorem-Ipsum-has-been {
   opacity: 0.5;
   font-family: Roboto;
   font-size: 18px;
@@ -98,7 +97,7 @@ margin-top:38px;
   text-align: left;
   color: #fdfef9;
 }
-.Lorem-Ipsum-has-been-mobil{
+.Lorem-Ipsum-has-been-mobil {
   margin-top: 10px;
   opacity: 0.5;
   font-family: Roboto;
@@ -111,8 +110,7 @@ margin-top:38px;
   text-align: left;
   color: #fdfef9;
 }
-.Ya-da-sosyal-medya-araclyla-ile{
- 
+.Ya-da-sosyal-medya-araclyla-ile {
   opacity: 0.5;
   font-family: Roboto;
   font-size: 14px;
@@ -121,11 +119,11 @@ margin-top:38px;
   font-stretch: normal;
   letter-spacing: normal;
   text-align: center;
-  color:#fdfef9;
-  margin-top:35.5px;
+  color: #fdfef9;
+  margin-top: 35.5px;
 }
-.Ya-da-sosyal-medya-araclyla-ile-mobil{
-  margin-top:15px;
+.Ya-da-sosyal-medya-araclyla-ile-mobil {
+  margin-top: 15px;
   margin-bottom: 10px;
   opacity: 0.5;
   font-family: Roboto;
@@ -135,9 +133,8 @@ margin-top:38px;
   font-stretch: normal;
   letter-spacing: normal;
   text-align: center;
-  color:#fdfef9;
+  color: #fdfef9;
 }
-
 
 .Aramza-katlmak-ister-misin-Kayt-Ol {
   font-family: Roboto;
@@ -147,10 +144,10 @@ margin-top:38px;
   font-stretch: normal;
   letter-spacing: normal;
   color: #fdfef9;
-  margin-top:10px;
+  margin-top: 10px;
 }
 .Aramza-katlmak-ister-misin-Kayt-Ol-mobil {
-  margin-top:5px;
+  margin-top: 5px;
   font-family: Roboto;
   font-size: 16px;
   font-weight: normal;
@@ -163,27 +160,27 @@ margin-top:38px;
 .Kayt-Ol {
   color: #f18d03;
 }
-a{
-  color:#fdfef9;
+a {
+  color: #fdfef9;
 }
-a:hover{
-   color:#fdfef9;
+a:hover {
+  color: #fdfef9;
 }
-.Ellipsebox{
+.Ellipsebox {
   display: flex;
   flex-direction: row;
- justify-content: center;
+  justify-content: center;
 }
 .Ellipse {
   width: 45.7px;
   height: 45.7px;
   border: solid 2px rgba(112, 112, 112, 0.5);
   border-radius: 50%;
-  padding:10px;
-    margin:5px;
+  padding: 10px;
+  margin: 5px;
 }
-input{
+input {
   background-color: #1d1e22 !important;
-  color:white !important;
+  color: white !important;
   font-size: 14px;
 }

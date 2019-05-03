@@ -1,6 +1,5 @@
 import React from 'react';
 import {
-  Grid,
   Container,
   Image,
   Checkbox,
@@ -26,12 +25,18 @@ export default function Mobil() {
         </p>
         <Form>
           <Form.Input
-            icon="envelope"
+            icon={{
+              name: "envelope",
+              color: 'grey'
+            }}
             iconPosition="left"
             placeholder="Mail Giriniz.."
           />
           <Form.Input
-            icon="lock"
+            icon={{
+              name: "lock",
+              color: 'grey'
+            }}
             iconPosition="left"
             placeholder="Şifre Giriniz.."
           />
@@ -54,18 +59,28 @@ export default function Mobil() {
         <p className="Ya-da-sosyal-medya-araclyla-ile-mobil">
           Ya da sosyal medya aracılığıyla ile
         </p>
-        <a href="#">
-          <Icon name="google" size="large" />
-        </a>
-        <a href="#">
-          <Icon name="facebook f" size="large" />
-        </a>
-        <a href="#">
-          <Icon name="twitter" size="large" />
-        </a>
-        <a href="#">
-          <Icon name="github" size="large" />
-        </a>
+        <div className="Ellipsebox">
+          <div className="Ellipse">
+            <a href="#">
+              <Icon name="google" size="large" />
+            </a>
+          </div>
+          <div className="Ellipse">
+            <a href="#">
+              <Icon name="facebook f" size="large" />
+            </a>
+          </div>
+          <div className="Ellipse">
+            <a href="#">
+              <Icon name="twitter" size="large" />
+            </a>
+          </div>
+          <div className="Ellipse">
+            <a href="#">
+              <Icon name="github" size="large" />
+            </a>
+          </div>
+        </div>
         <br />
         <p className="Aramza-katlmak-ister-misin-Kayt-Ol-mobil">
           Aramıza katılmak ister misin?{' '}

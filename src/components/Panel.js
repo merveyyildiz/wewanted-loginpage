@@ -7,16 +7,8 @@ export default function Panel() {
   return (
     <>
       <Responsive minWidth={768.1}>
-        <Grid columns={2}>
-          <Grid.Row>
-            <Grid.Column width={9} style={{ margin: '0px', padding: '0px' }}>
-              <Goran />
-            </Grid.Column>
-            <Grid.Column width={2} style={{ margin: '0px', padding: '0px' }}>
-              <Rectangle />
-            </Grid.Column>
-          </Grid.Row>
-        </Grid>
+        <Goran/>
+        <Rectangle/>
       </Responsive>
 
       <Responsive maxWidth={768}>

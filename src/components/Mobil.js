@@ -13,9 +13,7 @@ export default function Mobil() {
   return (
     <div className="mobil">
       <Container className="mobilbox" textAlign="center">
-        <Image src={logo1} srcSet={logo2 }
-            alt="logo"
-            centered />
+        <Image src={logo1} srcSet={logo2} alt="logo" centered />
         <p className="Lorem-Ipsum-is-simply-dummy-text-of-the-printing-industry-mobil">
           Lorem Ipsum is simply dummy text of the printing industry.{' '}
         </p>
@@ -26,7 +24,7 @@ export default function Mobil() {
         <Form>
           <Form.Input
             icon={{
-              name: "envelope",
+              name: 'envelope',
               color: 'grey'
             }}
             iconPosition="left"
@@ -34,7 +32,7 @@ export default function Mobil() {
           />
           <Form.Input
             icon={{
-              name: "lock",
+              name: 'lock',
               color: 'grey'
             }}
             iconPosition="left"
@@ -61,22 +59,22 @@ export default function Mobil() {
         </p>
         <div className="Ellipsebox">
           <div className="Ellipse">
-            <a href="#">
+            <a href="https://github.com/merveyyildiz">
               <Icon name="google" size="large" />
             </a>
           </div>
           <div className="Ellipse">
-            <a href="#">
+            <a href="https://github.com/merveyyildiz">
               <Icon name="facebook f" size="large" />
             </a>
           </div>
           <div className="Ellipse">
-            <a href="#">
+            <a href="https://github.com/merveyyildiz">
               <Icon name="twitter" size="large" />
             </a>
           </div>
           <div className="Ellipse">
-            <a href="#">
+            <a href="https://github.com/merveyyildiz">
               <Icon name="github" size="large" />
             </a>
           </div>

@@ -9,14 +9,6 @@ export default class Goran extends Component {
 
     return (
       <div className="goran-back">
-        <div className="mainEllips" />
-        <div className="mainEllips mainEllips1" />
-        <div className="mainEllips mainEllips2" />
-        <div className="mainEllips mainEllips3" />
-        <div className="mainEllips mainEllips4" />
-        <div className="mainEllips mainEllips5" />
-        <div className="mainEllips mainEllips6" />
-        <div className="mainEllips mainEllips7" />
         <div className="goranbox">
               <div className="Lorem-ipsum">
                 Lorem ipsum Dolor Sit Amet, Lorem

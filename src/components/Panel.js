@@ -2,13 +2,13 @@ import React from 'react';
 import Goran from './Goran.js';
 import Rectangle from './Rectangle.js';
 import Mobil from './Mobil';
-import { Responsive} from 'semantic-ui-react';
+import { Responsive } from 'semantic-ui-react';
 export default function Panel() {
   return (
     <>
       <Responsive minWidth={768.1}>
-        <Goran/>
-        <Rectangle/>
+        <Goran />
+        <Rectangle />
       </Responsive>
 
       <Responsive maxWidth={768}>
@@ -16,4 +16,4 @@ export default function Panel() {
       </Responsive>
     </>
   );
-  }
+}
